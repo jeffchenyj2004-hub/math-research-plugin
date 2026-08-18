@@ -21,4 +21,3 @@
 克隆私有仓库后，使用 Codex 打开仓库根目录。项目级 `AGENTS.md` 和 `.codex/agents/` 会随仓库一并共享；Plugin 源文件保存在 `plugins/math-research-plugin/`。
 
 团队成员需要先获得仓库访问权限，才能克隆或拉取更新。
-

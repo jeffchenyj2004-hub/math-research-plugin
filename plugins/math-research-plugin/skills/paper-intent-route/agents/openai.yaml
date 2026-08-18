@@ -1,0 +1,7 @@
+interface:
+  display_name: "论文意图分流"
+  short_description: "对论文阅读、写作、学习、比较和审查请求输出一次结构化路线"
+  default_prompt: "使用 $paper-intent-route 判断这个论文相关请求应进入哪条处理路线。"
+
+policy:
+  allow_implicit_invocation: true

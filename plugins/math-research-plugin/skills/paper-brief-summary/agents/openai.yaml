@@ -1,0 +1,7 @@
+interface:
+  display_name: "论文简明解读"
+  short_description: "依据摘要和少量目标段落快速说明论文问题、方法、结果与限制"
+  default_prompt: "使用 $paper-brief-summary 对这篇论文做一份有证据边界的简明解读。"
+
+policy:
+  allow_implicit_invocation: false

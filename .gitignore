@@ -1,0 +1,15 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local build and package artifacts
+node_modules/
+dist/
+*.zip
+*.tar.gz
+plugin-staging/
+
+# Local secrets
+.env
+.env.local
+*.pem

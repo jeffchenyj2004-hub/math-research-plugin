@@ -1,0 +1,32 @@
+{
+  "name": "math-research-plugin",
+  "version": "0.1.0",
+  "description": "面向数学与数学物理科研的概念解释和论文任务分流插件。",
+  "author": {
+    "name": "Mathematical Research Team"
+  },
+  "keywords": [
+    "mathematics",
+    "mathematical-physics",
+    "research",
+    "papers"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "数学科研助手",
+    "shortDescription": "解释专业概念并分流、检索和分析数学科研论文任务。",
+    "longDescription": "为数学和数学物理研究提供上下文感知的概念解释、论文来源解析、意图分流、简明解读、文献筛选检索与论文关系分析。",
+    "developerName": "Mathematical Research Team",
+    "category": "Productivity",
+    "capabilities": [
+      "Research",
+      "Analysis"
+    ],
+    "defaultPrompt": [
+      "解释这个数学物理概念，并指出关键假设。",
+      "判断我发来的论文适合怎样阅读和分析。",
+      "为这个研究问题建立可核验的论文阅读路径。"
+    ],
+    "brandColor": "#2563EB"
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "论文来源解析"
+  short_description: "统一解析 PDF、题名、DOI、arXiv 与网址并标明证据层级"
+  default_prompt: "使用 $paper-source-resolve 把这条论文引用整理成可核验的来源卡。"
+
+policy:
+  allow_implicit_invocation: false

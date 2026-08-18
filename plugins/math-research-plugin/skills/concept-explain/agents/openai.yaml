@@ -1,0 +1,7 @@
+interface:
+  display_name: "概念解释"
+  short_description: "结合上下文解释专业概念、公式含义，并识别歧义与理解偏差"
+  default_prompt: "使用 $concept-explain，结合上下文向我解释这个专业概念。"
+
+policy:
+  allow_implicit_invocation: true

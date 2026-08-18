@@ -1,0 +1,7 @@
+interface:
+  display_name: "论文关系分析"
+  short_description: "用可追溯证据说明论文间的继承、扩展、冲突、验证与互补"
+  default_prompt: "使用 $paper-relationship-analysis 分析这些论文之间的具体关系。"
+
+policy:
+  allow_implicit_invocation: false

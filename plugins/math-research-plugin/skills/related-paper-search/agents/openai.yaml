@@ -1,0 +1,7 @@
+interface:
+  display_name: "相关论文检索"
+  short_description: "按既定筛选方案检索并返回带可核验标识与纳入理由的论文候选"
+  default_prompt: "使用 $related-paper-search 按这份筛选策略检索可核验的相关论文。"
+
+policy:
+  allow_implicit_invocation: false
